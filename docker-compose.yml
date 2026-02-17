@@ -1,0 +1,9 @@
+services:
+  autotube:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - ./out:/app/out
+      - ./configs:/app/configs
+    command: ["pnpm", "run", "start"]
