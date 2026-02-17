@@ -1,0 +1,30 @@
+{
+  "name": "autotube-ai",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Automated faceless YouTube channel factory",
+  "packageManager": "pnpm@9.12.3",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "pnpm -r build",
+    "clean": "rm -rf node_modules **/dist out",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test",
+    "start": "pnpm --filter @autotube/runner start",
+    "token:youtube": "pnpm --filter @autotube/integrations youtube:token"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@typescript-eslint/eslint-plugin": "^8.18.1",
+    "@typescript-eslint/parser": "^8.18.1",
+    "eslint": "^9.16.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.4.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

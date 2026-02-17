@@ -1,0 +1,18 @@
+{
+  "name": "@autotube/runner",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "eslint src --ext .ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "start": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@autotube/shared": "workspace:*",
+    "@autotube/workflow": "workspace:*"
+  }
+}

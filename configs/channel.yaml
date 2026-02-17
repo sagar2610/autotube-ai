@@ -1,0 +1,13 @@
+brandName: Tech Empire
+niche: Tech + AI + Cloud business documentaries
+language: English
+defaultVisibility: private
+targetDurationMinutes: 9
+hashtagDefaults:
+  - TechEmpire
+  - ArtificialIntelligence
+  - CloudComputing
+thumbnail:
+  textColor: '#FFFFFF'
+  accentColor: '#00E5FF'
+  maxWords: 8

@@ -1,0 +1,19 @@
+{
+  "name": "@autotube/integrations",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "eslint src --ext .ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "youtube:token": "tsx src/scripts/generateYoutubeToken.ts"
+  },
+  "dependencies": {
+    "@autotube/shared": "workspace:*",
+    "googleapis": "^144.0.0",
+    "openai": "^4.76.1"
+  }
+}

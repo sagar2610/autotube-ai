@@ -1,0 +1,8 @@
+disclosures: "Disclosure: Some links below may be affiliate links, which means we may earn a commission at no extra cost to you."
+programs:
+  - name: "Cloud Hosting Credits"
+    baseUrl: "https://example.com/cloud"
+    tag: "techempire01"
+  - name: "AI Course Bundle"
+    baseUrl: "https://example.com/ai-course"
+    tag: "techempire01"
